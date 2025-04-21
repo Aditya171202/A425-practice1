@@ -1,0 +1,35 @@
+.para
+{
+    font-size: 40px;
+}
+.para::first-letter
+{
+    font-size: 70px;
+    color: blueviolet;
+}
+.para::first-line
+{
+    text-decoration: overline 2px blue;
+}
+/* the following concept is called as descendant selector (.container h6) */
+/* other concept is called as child selector (.container>h6) this only choses the direct children to the class */
+.container h6
+{
+    background-color: aqua;
+}
+/* adjacent sibling selector (.container + h2) selects the immediate next element mentioned */
+/* all sibling selector (.container ~ h2) selects all h2 elements  */
+
+.container ~ h2
+{
+    color: rgb(72, 23, 118);
+}
+
+.container :nth-child(odd)
+{
+    color: rgb(215, 245, 18);
+}
+.container :first-child
+{
+    color: chocolate;
+}

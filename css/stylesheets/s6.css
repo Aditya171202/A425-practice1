@@ -1,0 +1,23 @@
+.box
+{
+    height: 200px;
+    width: 200px;
+    /* by defualt the position is static but to make movements, the position is changed to relative */
+    position: relative;
+}
+#box1
+{
+    background-color: crimson;
+    left: 100px;
+}
+#box2
+{
+    background-color: burlywood;
+    top: 90px;
+    left: -45px;
+}
+#box3
+{
+    background-color: chartreuse;
+    right: 30px;
+}

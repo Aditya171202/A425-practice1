@@ -1,0 +1,37 @@
+img [title= "photo"]
+{
+    border: 3px solid red;
+}
+.container
+{
+    height: 500px;
+    border: 2px solid greenyellow;
+    display: flex;
+    /* flex-wrsp is used to fit elements in webpage in the same manner even after changing the size of page */
+    /* flex-wrap: wrap; */
+    /* default setting fornflex is in row so we use flex-direction: column to set it in column */
+    flex-direction: row;
+    /* justify-content works in rows(main axis) start/end/center*/
+    justify-content: center;
+    /* align-items works in columns(cross axis) start/end/center */
+    align-items: stretch;
+}
+.box
+{
+    border: 2px solid black;
+    width: 125px;
+    background-color: aqua;
+    background-image: url(../images/scenery.jpg);
+}
+#box3
+{
+    flex-grow: 1;
+}
+#box2
+{
+    flex-grow: 2;
+}
+#box4
+{
+    flex-shrink: 2;
+}

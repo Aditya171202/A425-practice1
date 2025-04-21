@@ -1,0 +1,50 @@
+.box
+{
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 20px;
+    background-image: url(../images/scenery.jpg);
+    /* border-radius goes in clockwise direction from top left to bottom right, if two values are given then the alternate corners are affected together (top left & bottom right) */
+}
+#box1
+{
+    border-radius: 40px;
+}
+#box2
+{
+    border-radius: 50px 20px;
+}
+#box3
+{
+    border-radius: 40px 15px 25px;
+}
+#box4
+{
+    border-radius: 50px 25px 35px 9px;
+}
+#box5
+{
+    border-radius: 0px 10px 25px 0px;
+}
+#box6
+{
+    border-radius: 17px 0px 34px 0px;
+}
+#box7
+{
+    border-radius: 0px 0px 0px 35px;
+}
+#box8
+{
+    border-radius: 0px 0px 25px ;
+}
+#box9
+{
+    border-radius: 0px 80px 0px 0px;
+}
+#box10
+{
+    border-radius: 100px 100px 100px 100px;
+}

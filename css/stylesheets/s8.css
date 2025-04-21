@@ -1,0 +1,21 @@
+body
+{
+    background-image: url(../images/narusasu.jpg);
+    /* to not repeat image in website we use background-repeat: no-repeat */
+    /* to repeat image only horizontally or vertically we use background-repeat: repeat-x or background-repeat: repeat-y respectively*/
+    background-repeat: no-repeat;
+    /* background-size is used to determine size of image on website */
+    background-size: 70%;
+    background-position: top right 100px;
+    background-attachment:fixed;
+}
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(217, 132, 47);
+    /* overflow auto gets a scrollbar to fit an overflowing paragraph */
+    /* the other two options are hidden and visible */
+    overflow: auto;
+    position: fixed;
+}

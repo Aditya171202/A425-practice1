@@ -1,0 +1,57 @@
+.box
+{
+    height: 200px;
+    width: 200px;
+    /* absolute position determines the movement on the basis of position of parent element (body in this case) */
+    position: absolute;
+}
+#box1
+{
+    background-color: crimson;
+    top: 20px;
+    left: 80px;
+}
+#box2
+{
+    background-color: burlywood;
+    top: 40px;
+    left: 160px;
+}
+#box3
+{
+    background-color: chartreuse;
+    top: 60px;
+    left: 240px;
+}
+
+.container
+{
+    height: 300px;
+    width: 800px;
+    background-color: chocolate;
+    border-radius: 0px 50%;
+    position: relative;
+    left: 350px;
+    top: 450px;
+}
+.shape1
+{
+    height: 150px;
+    width: 150px;
+    background-color: firebrick;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+}
+.shape2
+{
+    height: 150px;
+    width: 150px;
+    background-color: firebrick;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    /* z-index is used to change the overlapping of elements */
+    z-index: -1;
+}

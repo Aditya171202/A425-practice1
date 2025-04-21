@@ -1,0 +1,32 @@
+/* color palletes has multiple types of which 2 imp types RGB and hexadecimal */
+/* There is another alpha value with the colour palletes which determines the transaparency of the element */
+.para
+{
+    color: #66ff00;
+}
+body
+{
+    background-color: rgb(215, 117, 117);
+}
+.box
+{
+    color: beige;
+    background-color: black;
+    width: 45%;
+    height: 140px;
+    padding: 30px;
+    border: 5px dashed aqua;
+    margin: 40px;
+} 
+/* margin creates gap between two elements of html */
+/* anchor tag */
+a
+{
+    color: darkred;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 0px 15px 5px;
+    /* padding for a box happens in top > right > bottom > left (clockwise direction */
+    border: 2px dotted red;
+    margin: 50px;
+}

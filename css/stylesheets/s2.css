@@ -1,0 +1,35 @@
+/* . is used to call a class */
+/* class is used to identify a tag for editing that specific tag */
+/* # is used to call id */
+/* id is used to call specific elements from class */
+body{
+    .para1
+    {
+        background-color: aquamarine;
+    }
+    .para2
+    {
+        background-color: beige;
+    }
+
+    #p1
+    {
+        color: red;
+    }
+    .heading
+    {
+        background-color: burlywood;
+    }
+    #h1
+    {
+        color: brown;
+    }
+    #h2
+    {
+        color: chartreuse;
+    }
+    #h3
+    {
+        color: darkcyan;
+    }
+}

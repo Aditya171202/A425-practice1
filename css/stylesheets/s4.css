@@ -1,0 +1,35 @@
+.para
+{
+    background-color: blue;
+}
+.para span
+/* this allows us to modify span tag inside para class only */
+{
+    background-color: red;
+    /* since span is inline element the display:block/inline comand converts any  element to desired choice  */
+    display: inline-block;
+    border: 5px dotted yellow;
+    margin: 10px;
+}
+.box
+{
+    height: 100px;
+    width: 80px;
+    background-color: crimson;
+    margin: 15px;
+    display: inline-block;
+}
+.container
+{
+    background-color: bisque;
+    margin: 30px 25px ;
+    display: inline-block;
+    box-shadow: 4px 5px 6px 7px grey;
+    /* for box-shadow 4px-height  5px-width  6px-blurring  7px-spreading */
+}
+h1
+{
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    /* text-shadow does not have spreading like box-shadow */
+}

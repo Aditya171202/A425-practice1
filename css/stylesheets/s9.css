@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@173.2,612&family=Playwrite+MX+Guides&display=swap');
+.box
+{
+    height: 3000px;
+    width: 300px;
+    background-color: gold;
+    display: inline-block;
+}
+/* certain properties like tect-decoration does not work on certain browsers so while designing we need to study properties which are allowed by all browsers */
+#box1
+{
+    text-align: left;
+    text-decoration: 2px underline red;
+    
+}
+
+#box2
+{
+    text-align: right;
+    text-decoration: 2px overline blue;
+}
+
+#box3
+{
+    text-align: center;
+    text-decoration: 2px line-through black;
+}
+
+#box4
+{
+    text-align: justify ;
+}
+/* for fonts visit google fonts then go to gwt font and get the embed code */
+/* after embed code click on import code and the get the css code */
+/* se the weight yourself or set the value using one value on google fonts website */
+/* change classname in the csscode and add you own personal name in the uniquifier */
+
+.inconsolata-font 
+{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 612;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 173.2;
+}
+
+.playwrite-mx-guides-regular 
+{
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
